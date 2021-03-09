@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps{
-                 git 'https://github.com/Agr828'
+                 git 'https://github.com/Agr828/test'
             }
         }//compile
         stage('Compile') {
