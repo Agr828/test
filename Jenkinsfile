@@ -8,7 +8,7 @@ pipeline {
         }//compile
         stage('Compile') {
             steps{
-                 bat 'echo hello'
+                 bat 'javac hello.java'
             }
         }
     }//test
