@@ -8,7 +8,7 @@ pipeline {
         }//compile
         stage('Compile') {
             steps{
-                 bat 'javac CalculatorDemo.java'
+                 bat 'javac CalculaterDemo.java'
             }
         }
     }//test
