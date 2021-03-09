@@ -11,7 +11,7 @@ pipeline {
                  bat 'echo hello'
             }
         }
-    }//test
+    }//te
     post {
         failure {
             mail bcc: '', body: "$BUILD_NUMBER", subject: "$JOB_NAME", to: 'yvsss81@gmail.com'
