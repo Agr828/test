@@ -5,7 +5,7 @@ pipeline {
             steps{
                  git 'https://github.com/Agr828/test/tree/master/src/com/demo'
             }
-        }
+        }//compile
         stage('Compile') {
             steps{
                  bat 'javac CalculatorDemo.java'
